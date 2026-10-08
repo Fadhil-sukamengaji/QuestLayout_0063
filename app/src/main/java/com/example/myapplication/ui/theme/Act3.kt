@@ -37,6 +37,14 @@ fun ActivitasPertama(modifier: Modifier) {
             stringResource(id = R.string.univ),
             fontsize = 22.sp
         )
-
+        Spacer(modifier = Modifier.heigt(25.dp))
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = colouResource(id = R.color.card_0_bg)
+            )
+        )
     }
 }
